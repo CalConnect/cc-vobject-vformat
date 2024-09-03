@@ -15,10 +15,17 @@ for vObject would be interoperable on all other vObject-compliant models.
 
 
 include::vobject/vo-compliant.adoc[]
+
 include::vobject/vo-elements.adoc[]
+
 include::vobject/vo-component.adoc[]
+
 include::vobject/vo-property.adoc[]
+
 include::vobject/vo-property-value.adoc[]
+
 include::vobject/vo-parameter.adoc[]
+
 include::vobject/vo-parameter-value.adoc[]
+
 include::vobject/vo-group.adoc[]

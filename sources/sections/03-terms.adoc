@@ -4,21 +4,27 @@
 
 === vObject
 
-the generalized data model of the vCard component (VCARD) and iCalendar
+generalized object model derived from the vCard and iCalendar models
+
+NOTE: behind the vFormat serialization format, representing the complete structure of a vFormat instance.
+
+generalized data model of the vCard component (VCARD) and iCalendar
 (VCALENDAR) component defined in this document
 
 === vFormat
 
-the native serialization format of vObject, which is the textual format
-representation using the `BEGIN:` and `END:` component keywords
+native serialization format of vObject
+
+NOTE: Textual format representation using the `BEGIN:` and `END:` component
+keywords
 
 === inner vObject, sub-component
 
-a vObject located within a vObject
+vObject located within a vObject
 
 === outer vObject, super-component
 
-a vObject that this vObject is located within
+vObject that this vObject is located within
 
 === Client User Application (CUA)
 

@@ -22,10 +22,16 @@ all its instances, including iCalendar <<RFC5545>> and vCard <<RFC6350>>.
 
 
 include::vformat/vf-abnf.adoc[]
+
 include::vformat/vf-component.adoc[]
+
 include::vformat/vf-property.adoc[]
+
 include::vformat/vf-property-value.adoc[]
+
 include::vformat/vf-parameter.adoc[]
+
 include::vformat/vf-parameter-value.adoc[]
+
 include::vformat/vf-group.adoc[]
 

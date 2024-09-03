@@ -37,7 +37,9 @@ Meta value types are used in conjunction with
 basic value types (<<vo-basic-value-types>>).
 
 include::meta-values/01-fieldset.adoc[]
+
 include::meta-values/02-list.adoc[]
+
 include::meta-values/03-map.adoc[]
 
 
@@ -45,12 +47,19 @@ include::meta-values/03-map.adoc[]
 === Basic Value Types
 
 include::property-values/01-text.adoc[]
+
 include::property-values/02-uri.adoc[]
+
 include::property-values/03-boolean.adoc[]
+
 include::property-values/04-integer.adoc[]
+
 include::property-values/05-float.adoc[]
+
 include::property-values/06-language-tag.adoc[]
+
 include::property-values/07-binary.adoc[]
+
 include::property-values/08-keyvalue.adoc[]
 
 
@@ -59,17 +68,31 @@ include::property-values/08-keyvalue.adoc[]
 These date and time related value types are based on <<ISO.8601.2004>> and <<ISO.8601.2000>>.
 
 include::property-date-values/01-iso-date-complete.adoc[]
+
 include::property-date-values/02-iso-date-flex.adoc[]
+
 include::property-date-values/03-iso-time-complete.adoc[]
+
 include::property-date-values/04-iso-time-basic.adoc[]
+
 include::property-date-values/05-iso-time-flex.adoc[]
+
 include::property-date-values/06-iso-utc-offset.adoc[]
+
 include::property-date-values/07-cal-utc-offset.adoc[]
+
 include::property-date-values/08-iso-date-time-complete.adoc[]
+
 include::property-date-values/09-iso-date-time-basic.adoc[]
+
 include::property-date-values/10-iso-date-time-flex.adoc[]
+
 include::property-date-values/11-iso-date-and-or-time.adoc[]
+
 include::property-date-values/12-iso-duration-complete.adoc[]
+
 include::property-date-values/13-cal-duration.adoc[]
+
 include::property-date-values/14-iso-interval-complete.adoc[]
+
 include::property-date-values/15-cal-interval.adoc[]
