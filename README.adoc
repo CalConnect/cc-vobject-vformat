@@ -1,4 +1,4 @@
-= Internet-Draft: CalConnect vObject Model and vFormat Syntax
+= Internet-Draft: CalConnect vObject model and vFormat syntax
 
 image:https://github.com/CalConnect/csd-vobject-vformat/workflows/docker/badge.svg["Build Status", link="https://github.com/CalConnect/csd-vobject-vformat/actions?workflow=docker"]
 
@@ -14,7 +14,7 @@ This document is available in its rendered forms here:
 git clone https://github.com/CalConnect/csd-vobject-vformat/
 ----
 
-== Installing Build Tools
+== Installing build tools
 
 See https://www.metanorma.com/author/topics/install/
 
@@ -32,7 +32,7 @@ docker run -v "$(pwd)":/metanorma -w /metanorma -it metanorma/mn metanorma site 
 ----
 
 
-== Building The Document
+== Building the document
 
 [source,sh]
 ----
