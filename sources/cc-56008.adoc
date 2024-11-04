@@ -5,8 +5,8 @@
 :doctype: standard
 :edition: 1
 :status: working-draft
-:revdate: 2021-04-15
-:published-date: 2021-04-15
+:revdate: 2024-11-04
+:published-date: 2024-11-04
 :script: Latn
 :technical-committee: VCARD
 :fullname: Ronald Tse
@@ -21,7 +21,7 @@
 :fullname_4: Mike Douglass
 :surname_4: Douglass
 :givenname_4: Mike
-:mn-document-class: csd
+:mn-document-class: cc
 :mn-output-extensions: xml,html,pdf,rxl
 :local-cache-only:
 :data-uri-image:

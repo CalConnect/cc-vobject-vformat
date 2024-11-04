@@ -9,15 +9,15 @@ to use multiple lines.
 A property begins with the property name (e.g., `TEL`), followed
 by a COLON delimiter and the property's value.
 
-==== Uppercased Property Name
+==== Uppercased property name
 
 The property name *MUST* be normalized to uppercase letters.
 
-==== Normalized Parameters
+==== Normalized parameters
 
 The last property parameter of a property *MUST NOT* have a trailing SEMICOLON.
 
-==== Wrapped Content Line
+==== Wrapped content line
 
 When exporting a normalized property content line, it *MUST* be folded at the
 character limit when it exceeds 75 characters. Each folded line *MUST* be delimited

@@ -3,7 +3,7 @@
 
 This corresponds to the "time" portion of the TIMESTAMP value type in <<RFC6350,4.3.5>>.
 
-===== Value Type Notation
+===== Value type notation
 
 ISO-TIME-COMPLETE
 
@@ -11,7 +11,7 @@ ISO-TIME-COMPLETE
 
 Representation of a complete time of day with a UTC offset <<ISO.8601.2004>>.
 
-===== Format Definition
+===== Format definition
 
 
 [source,abnf]

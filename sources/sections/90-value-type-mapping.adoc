@@ -1,6 +1,6 @@
 
 [[mapping-rfc-data-value-types]]
-== Mapping Of Data Value Types For Existing RFCs
+== Mapping of data value types for existing RFCs
 
 The vObject value types in this section are described using
 vObject value type notation (see <<vo-value-type-notation>>).

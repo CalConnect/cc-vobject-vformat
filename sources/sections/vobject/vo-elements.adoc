@@ -16,7 +16,7 @@ The property group is optional and *MAY* not be accepted by all vObject-complian
 models.
 
 [[diagram-vobject-hierarchy]]
-.vObject Data Model Hierarchy
+.vObject data model hierarchy
 [align=center]
 ====
 [align=center]

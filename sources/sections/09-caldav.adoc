@@ -2,7 +2,7 @@
 [[caldav]]
 == CalDAV
 
-=== Additional Server Semantics for PUT, COPY and MOVE
+=== Additional server semantics for PUT, COPY and MOVE
 
 This specification creates an additional precondition and postcondition
 for the PUT, COPY, and MOVE methods when:
@@ -17,7 +17,7 @@ for the PUT, COPY, and MOVE methods when:
 
 // TODO: anything we need to do with Scheduling <<RFC6638>>?
 
-==== Provide Normalized Output
+==== Provide normalized output
 
 Certain servers perform silent changes or cleanups of client provided
 iCalendar data when stored as calendar object resources, such as the order of

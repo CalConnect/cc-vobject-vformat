@@ -8,7 +8,7 @@ If the property permits, multiple "float" values are
 specified by a COMMA-separated list of values.
 ////
 
-===== Value Type Notation
+===== Value type notation
 
 FLOAT
 
@@ -16,7 +16,7 @@ FLOAT
 
 Representation of a real-number value.
 
-===== Format Definition
+===== Format definition
 
 [source,abnf]
 ----

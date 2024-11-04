@@ -1,6 +1,6 @@
 
 [[security]]
-== Security Considerations
+== Security considerations
 
 Security considerations around vObject formats in the following
 documents *MUST* be adhered to:

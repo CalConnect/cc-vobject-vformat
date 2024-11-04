@@ -1,6 +1,6 @@
 
 [[vobject-property-value-types]]
-== vObject Value Types And Notation Syntax
+== vObject value types and notation syntax
 
 vObject value types are identically defined for both:
 
@@ -8,7 +8,7 @@ vObject value types are identically defined for both:
 * vObject property parameter values.
 
 [[vo-value-type-notation]]
-=== Value Type Notation
+=== Value type notation
 
 The vObject value type notation is used for defining the accepted values
 within a vObject property or parameter values. It fully covers all
@@ -31,7 +31,7 @@ are described in <<vformat-property-value>> and
 <<vformat-property-parameter-value>>.
 
 
-=== Meta Value Types
+=== Meta value types
 
 Meta value types are used in conjunction with
 basic value types (<<vo-basic-value-types>>).
@@ -44,7 +44,7 @@ include::meta-values/03-map.adoc[]
 
 
 [[vo-basic-value-types]]
-=== Basic Value Types
+=== Basic value types
 
 include::property-values/01-text.adoc[]
 
@@ -63,7 +63,7 @@ include::property-values/07-binary.adoc[]
 include::property-values/08-keyvalue.adoc[]
 
 
-=== Date and Time Value Types
+=== Date and time value types
 
 These date and time related value types are based on <<ISO.8601.2004>> and <<ISO.8601.2000>>.
 

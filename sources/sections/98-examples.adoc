@@ -1,4 +1,4 @@
-== Normalization Examples for vFormat
+== Normalization examples for vFormat
 
 //TODO, more examples!
 

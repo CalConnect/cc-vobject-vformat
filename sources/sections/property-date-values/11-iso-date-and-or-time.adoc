@@ -5,7 +5,7 @@ This corresponds to the DATE-AND-OR-TIME value type in <<RFC6350,4.3.4>>.
 
 // This is the DATE-AND-OR-TIME portion of 6350
 
-===== Value Type Notation
+===== Value type notation
 
 ISO-DATE-AND-OR-TIME
 
@@ -13,7 +13,7 @@ ISO-DATE-AND-OR-TIME
 
 Representation of a ISO-DATE-FLEX, ISO-TIME-FLEX or an ISO-DATE-TIME-FLEX value.
 
-===== Format Definition
+===== Format definition
 
 
 [source,abnf]

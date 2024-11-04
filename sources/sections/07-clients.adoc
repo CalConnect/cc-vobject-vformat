@@ -1,5 +1,5 @@
 
 [[clients]]
-== Client Implementations Recommendations
+== Client implementations recommendations
 
 A CUA *SHOULD* normalize the vObject upon modification of it.

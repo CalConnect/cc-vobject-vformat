@@ -3,7 +3,7 @@
 
 This corresponds to the UTC-OFFSET value type in <<RFC5545,3.3.14>>.
 
-===== Value Type Notation
+===== Value type notation
 
 CAL-UTC-OFFSET
 
@@ -11,7 +11,7 @@ CAL-UTC-OFFSET
 
 Representation of a UTC offset as described in <<RFC5545>>.
 
-===== Format Definition
+===== Format definition
 
 [source,abnf]
 ----

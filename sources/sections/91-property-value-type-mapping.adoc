@@ -1,11 +1,11 @@
 
 [[mapping-rfc-property-value-types]]
-== Mapping Of Component Property Value Types For Existing RFCs
+== Mapping of component property value types for existing RFCs
 
 The default and alternative value types in this section are described using
 vObject value type notation (see <<vo-value-type-notation>>).
 
-=== VCARD Component (RFC 6350)
+=== VCARD component (RFC 6350)
 
 Properties with the default data type as TEXT.
 
@@ -119,7 +119,7 @@ Properties with LANGUAGE-TAG.
 
 
 
-=== VCALENDAR Component (RFC 5545)
+=== VCALENDAR component (RFC 5545)
 
 |===
 | Property      | Default Value Type | Alt. Value Types | Original Value Type
@@ -133,7 +133,7 @@ Properties with LANGUAGE-TAG.
 |===
 
 
-=== VEVENT Component (RFC 5545)
+=== VEVENT component (RFC 5545)
 
 |===
 | Property      | Default Value Type                                               | Alt. Value Types   | Original Value Type
@@ -172,7 +172,7 @@ Properties with LANGUAGE-TAG.
 |===
 
 
-=== VTODO Component (RFC 5545)
+=== VTODO component (RFC 5545)
 
 |===
 | Property       | Default Value Type                                               | Alt. Value Types   | Original Value Type
@@ -212,7 +212,7 @@ Properties with LANGUAGE-TAG.
 
 
 
-=== VJOURNAL Component (RFC 5545)
+=== VJOURNAL component (RFC 5545)
 
 |===
 | Property       | Default Value Type                                               | Alt. Value Types   | Original Value Type
@@ -244,7 +244,7 @@ Properties with LANGUAGE-TAG.
 |===
 
 
-=== VFREEBUSY Component (RFC 5545)
+=== VFREEBUSY component (RFC 5545)
 
 |===
 | Property       | Default Value Type     | Alt. Value Types   | Original Value Type
@@ -264,7 +264,7 @@ Properties with LANGUAGE-TAG.
 
 |===
 
-=== VTIMEZONE Component (RFC 5545)
+=== VTIMEZONE component (RFC 5545)
 
 |===
 | Property      | Default Value Type     | Alt. Value Types | Original Value Type
@@ -294,7 +294,7 @@ Properties with LANGUAGE-TAG.
 |===
 
 
-=== VALARM Component (RFC 5545)
+=== VALARM component (RFC 5545)
 
 |===
 | Property      | Default Value Type | Alt. Value Types       | Original Value Type

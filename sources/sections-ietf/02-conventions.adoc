@@ -1,6 +1,6 @@
 
 [[conventions]]
-== Terms and Definitions
+== Terms and definitions
 
 The key words "*MUST*", "*MUST NOT*", "*REQUIRED*", "*SHALL*", "*SHALL NOT*",
 "*SHOULD*", "*SHOULD NOT*", "*RECOMMENDED*", "*NOT RECOMMENDED*", "*MAY*",
@@ -28,21 +28,16 @@ all property values are case-sensitive, unless otherwise stated.
 === Definitions
 
 vObject::
-  the generalized data model of the vCard component (VCARD) and iCalendar
-  (VCALENDAR) component defined in this document
+  information modelling language developed by CalConnect
 
 vFormat::
-  the native serialization format of vObject, which is the textual format
-  representation using the `BEGIN:` and `END:` component keywords
+  serialization format used for vObject
 
-inner vObject, sub-component::
+inner component, sub-component::
   a vObject located within a vObject
 
-outer vObject, super-component::
+outer component, super-component::
   a vObject that this vObject is located within
 
-Client User Application (CUA)::
+client user application (CUA)::
   the vObject client implementation that interfaces with the user
-
-calendar date::
-  as defined in <<ISO.8601.2004,2.1.8>>

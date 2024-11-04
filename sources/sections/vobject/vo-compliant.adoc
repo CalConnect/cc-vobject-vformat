@@ -1,6 +1,6 @@
 
 [[vobject-compliant]]
-=== vObject-compliant Models
+=== vObject-compliant models
 
 The implied data models behind these formats are compliant to the vObject data model:
 

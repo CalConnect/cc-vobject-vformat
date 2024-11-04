@@ -77,7 +77,7 @@ The steps are generally described below.
 
 ... Normalize property values
 
-.. Normalize inner vObjects (sub-components)
+.. Normalize inner components (sub-components)
 
 ... Perform the same function as (1)
 

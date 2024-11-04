@@ -1,7 +1,7 @@
 
 ==== KEYVALUE
 
-===== Value Type Notation
+===== Value type notation
 
 `KEYVALUE(key, value-type)`
 
@@ -9,7 +9,7 @@
 
 Representation of a key-value pair: a key `key` linked to a value of value type `value-type`.
 
-===== Format Definition
+===== Format definition
 
 [source,abnf]
 ----

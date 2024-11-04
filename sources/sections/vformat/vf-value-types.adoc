@@ -1,6 +1,6 @@
 
 [[vformat-value-types]]
-=== Value Types
+=== Value types
 
 Most vObject value types (<<vobject-property-value-types>>) can be serialized
 into vFormat syntax natively. However, some considerations exist for certain
@@ -9,7 +9,7 @@ value types, as described below.
 
 ==== TEXT
 
-===== vFormat Definition
+===== vFormat definition
 
 [source,abnf]
 ----
@@ -110,7 +110,7 @@ an unescaped delimiter character to prevent breaking of the LIST syntax.
 By default, the `LIST(value-type)` function denotes a list of elements separated
 by the COMMA character.
 
-===== Alternative Delimitation
+===== Alternative delimitation
 
 A property *MAY* specify that its LIST elements are delimited by another character
 other than the COMMA, for example, the `RECUR` property of <<RFC5545>> uses

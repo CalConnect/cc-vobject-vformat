@@ -1,6 +1,6 @@
 
 [[vformat]]
-== vFormat Syntax
+== vFormat syntax
 
 The "vFormat" format is the generalized syntax from the vCard <<RFC6350>>
 and iCalendar <<RFC5545>> formats, and is the native format for vObject
