@@ -4,7 +4,7 @@
 This corresponds to the DATE-TIME value type in <<RFC5545,3.3.5>>.
 // 5545-Date-Time, without UTC offset
 
-===== Value Type Notation
+===== Value type notation
 
 ISO-DATE-TIME-BASIC
 
@@ -13,7 +13,7 @@ ISO-DATE-TIME-BASIC
 A date and time of day combination without non-UTC timezone as specified in
 <<ISO.8601.2004,4.3.2>>
 
-===== Format Definition
+===== Format definition
 
 
 [source,abnf]

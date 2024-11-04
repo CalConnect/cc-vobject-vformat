@@ -1,6 +1,6 @@
 
 [[iana]]
-== IANA Considerations
+== IANA considerations
 
 New vObject and vFormat specifications produced *MUST*
 adhere to the requirements, including the normalization process,
@@ -8,16 +8,16 @@ described in this document, and any
 exceptions or further instructions for normalization *MUST* be
 described.
 
-=== Common vObject Registries
+=== Common vObject registries
 
-The IANA has created and will maintain the following registries for
+CalConnect created and will maintain the following registries for
 vObject elements with pointers to appropriate reference documents. The
 registries are grouped together under the heading
 "vObject Common Elements".
 
 
 [[vobject-uid-registry]]
-=== vObject Component Uniqueness Identifiers Registry
+=== vObject component uniqueness identifiers registry
 
 // TODO: Create a registry for components, for properties, for parameters, for values types, etc?
 
@@ -58,7 +58,7 @@ appealed to the IESG Applications Area Director, then to the IESG.
 They follow the normal appeals procedure for IESG decisions.
 
 
-==== Registration Template
+==== Registration template
 
 A registration for a vObject Component Uniqueness Property is defined by
 completing the following template.
@@ -88,7 +88,7 @@ One or more examples of instances of the component need
 to be specified.
 
 
-==== Initial Registrations
+==== Initial registrations
 
 The IANA created and maintains this registry for vObject Component Uniqueness
 Identifiers with pointers to appropriate reference documents.
@@ -108,12 +108,12 @@ The following table has been used to initialize the registry.
 | VTIMEZONE     | TZID         | Global | <<RFC5545,3.6.5>>
 | STANDARD      | DTSTART      | Parent | <<RFC5545,3.6.5>>
 | DAYLIGHT      | DTSTART      | Parent | <<RFC5545,3.6.5>>
-| VALARM        | UID          | Global | <<I-D.daboo-valarm-extensions,4>>
+| VALARM        | UID          | Global | <<RFC9074,4>>
 | VAVAILABILITY | UID          | Global | <<RFC7953,3.1>>
 | AVAILABLE     | UID          | Global | <<RFC7953,3.1>>
-| VPOLL         | UID          | Parent | <<I-D.york-vpoll,4.5.1>>
-| VVOTER        | VOTER        | Parent | <<I-D.york-vpoll,4.5.2>>
-| VOTE          | POLL-ITEM-ID | Parent | <<I-D.york-vpoll,4.5.3>>
+| VPOLL         | UID          | Parent | <<I-D.ietf-calext-vpoll,4.5.1>>
+| VVOTER        | VOTER        | Parent | <<I-D.ietf-calext-vpoll,4.5.2>>
+| VOTE          | POLL-ITEM-ID | Parent | <<I-D.ietf-calext-vpoll,4.5.3>>
 
 // TODO: daboo-icalendar-vpatch is not yet available
 // VPATCH        | UID            | Global        | <<I-D.daboo-icalendar-vpatch,10.1>>

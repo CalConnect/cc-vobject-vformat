@@ -1,13 +1,13 @@
 
 [[vformat-property-parameter-value]]
-=== Property Parameter Value
+=== Property parameter value
 
 While a property parameter value may accept any vObject value type,
 the serialization rules of a vFormat property value and
 a vFormat property parameter value are different, due to
 further limitations of allowed characters in property parameter values.
 
-==== Format Definition
+==== Format definition
 
 [source,abnf]
 ----
@@ -80,7 +80,7 @@ into acceptable vFormat property parameter values:
 ////
 
 
-==== Normalization of Line Breaks
+==== Normalization of line breaks
 
 In vFormat, vObject property parameter values *MUST* convert all line breaks
 ("\n" or "\N") into the character sequence "\n" (BACKSLASH followed by a LATIN
@@ -90,7 +90,7 @@ If a value is specified as `paramtext` (i.e., not inside a quoted-string),
 the value *SHOULD* be down-cased.
 
 
-==== Normalizing Parameter Values Via DQOUTE Wrapping
+==== Normalizing parameter values via DQOUTE wrapping
 
 vFormat property parameter values *SHOULD* be individually wrapped with the
 DQUOTE characters.

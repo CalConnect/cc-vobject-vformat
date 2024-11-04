@@ -1,6 +1,6 @@
 
 [[vobject-property]]
-==== vObject Property
+==== vObject property
 
 Properties represent attributes of the vObject itself.
 
@@ -12,12 +12,12 @@ A property:
 
 vObject property value types are listed in <<vobject-property-value>>.
 
-===== Normalized Values
+===== Normalized values
 
 A normalized property *MUST* have normalized values.
 
 
-===== Normalized Parameters
+===== Normalized parameters
 
 A normalized property *MUST* have normalized property parameters.
 

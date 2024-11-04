@@ -1,6 +1,6 @@
 
 [[mapping-rfc-parameter-value-types]]
-== Mapping Of Parameter Value Types For Existing RFCs
+== Mapping of parameter value types for existing RFCs
 
 The value types in this section are described using
 vObject value type notation (see <<vo-value-type-notation>>).

@@ -1,6 +1,6 @@
 
 [[vformat-abnf]]
-=== ABNF Format Definition
+=== ABNF format definition
 
 The following ABNF notation defines the vFormat syntax,
 in accordance with <<RFC5234>>, which also defines CRLF,

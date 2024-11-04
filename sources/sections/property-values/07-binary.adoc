@@ -3,7 +3,7 @@
 
 This corresponds to the BINARY value type in <<RFC5545,3.3.1>>.
 
-===== Value Type Notation
+===== Value type notation
 
 BINARY
 
@@ -13,7 +13,7 @@ This value type defines values that contain inline binary data encoded
 in characters. For example, an inline "ATTACH" property of an iCalendar
 object or an inline "PHOTO" property image inside a vCard object.
 
-===== Format Definition
+===== Format definition
 
 [source,abnf]
 ----

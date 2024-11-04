@@ -1,6 +1,6 @@
 
 [[vformat-property-group]]
-=== Property Group
+=== Property group
 
 The syntax of a property group is defined in <<vformat-abnf>>.
 

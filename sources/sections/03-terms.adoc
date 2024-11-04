@@ -1,35 +1,36 @@
 
-[[conventions]]
-== Terms and Definitions
+[source=ISO.8601-1.2019]
+== Terms and definitions
 
 === vObject
 
-generalized object model derived from the vCard and iCalendar models
+information modelling language developed by CalConnect
 
-NOTE: behind the vFormat serialization format, representing the complete structure of a vFormat instance.
+NOTE: vObject was originally developed through generalization of the vCard and
+iCalendar models, and underpins their development.
 
-generalized data model of the vCard component (VCARD) and iCalendar
-(VCALENDAR) component defined in this document
+NOTE: vFormat is the serialization format designed for the vObject information
+model.
+
+// generalized data model of the vCard component (VCARD) and iCalendar
+// (VCALENDAR) component defined in this document
 
 === vFormat
 
-native serialization format of vObject
+serialization format used for vObject
 
-NOTE: Textual format representation using the `BEGIN:` and `END:` component
-keywords
+=== inner component
+alt:[sub-component]
 
-=== inner vObject, sub-component
+vObject located within another vObject
 
-vObject located within a vObject
+=== outer component
+alt:[super-component]
 
-=== outer vObject, super-component
+vObject that this vObject is an {{inner component}} of
 
-vObject that this vObject is located within
+=== client user application
+alt:[CUA]
 
-=== Client User Application (CUA)
+vObject client implementation that interfaces with a user
 
-the vObject client implementation that interfaces with the user
-
-=== calendar date
-
-as defined in <<ISO.8601.2004,2.1.8>>

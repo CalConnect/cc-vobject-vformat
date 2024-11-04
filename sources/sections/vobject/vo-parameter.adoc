@@ -1,6 +1,6 @@
 
 [[vobject-property-parameter]]
-==== Property Parameter
+==== Property parameter
 
 A property parameter is an attribute that applies on a property.
 
@@ -17,14 +17,14 @@ A property parameter *MAY* represent:
 A property *MAY* have multiple property parameters, for example, the
 "TYPE" of the value or a category that applies to this value.
 
-===== Value Lists
+===== Value lists
 
 Certain property parameters allow multiple values.
 There is no defined order among property parameters in a property parameter list.
 
 In normalized form, values in a value list *MUST* be sorted alphabetically.
 
-==== Default Property Parameter Values
+==== Default property parameter values
 
 Property parameters are allowed to have a default value.
 

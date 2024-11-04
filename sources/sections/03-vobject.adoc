@@ -1,13 +1,14 @@
 
 [[vobject]]
-== vObject Data Model
+== vObject data model
 
 The vObject data model is the generalized data model from the implied
 data models of vCard <<RFC6350>> and iCalendar <<RFC5545>>.
 
-While both vCard <<RFC6350>> and iCalendar <<RFC5545>> specify data formats for different purposes,
-the data model behind them follow an identical logical structure (using
-components, properties and parameters) with similar requirements.
+While both vCard <<RFC6350>> and iCalendar <<RFC5545>> specify data formats for
+different purposes, the data model behind them follow an identical logical
+structure (using components, properties and parameters) with similar
+requirements.
 
 By creating a generalized data model ("vObject") that is compatible with both,
 we are able to ensure that newly developed data modification techniques

@@ -7,7 +7,7 @@ complete representation.
 This corresponds to the DATE value type in <<RFC6350,4.3.1>>.
 
 
-===== Value Type Notation
+===== Value type notation
 
 ISO-DATE-FLEX
 
@@ -17,7 +17,7 @@ This value type defines a calendar date format that allows entry of a
 complete calendar date <<ISO.8601.2004>>, a reduced accuracy date <<ISO.8601.2004>>
 and a truncated date <<ISO.8601.2004>>.
 
-===== Format Definition
+===== Format definition
 
 
 [source,abnf]

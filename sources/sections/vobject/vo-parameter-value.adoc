@@ -1,6 +1,6 @@
 
 [[vobject-property-parameter-value]]
-==== Property Parameter Value
+==== Property parameter value
 
 vObject property parameter values are strongly typed, just like vObject properties, <<RFC5545>> and
 <<RFC6350>>. Basic value types accepted in vObject property parameter values

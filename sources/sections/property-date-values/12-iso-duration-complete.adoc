@@ -8,7 +8,7 @@ This corresponds to the values accepted by "duration" as specified in <<ISO.8601
 specified by a COMMA-separated list of values.
 ////
 
-===== Value Type Notation
+===== Value type notation
 
 ISO-DURATION-COMPLETE
 
@@ -16,7 +16,7 @@ ISO-DURATION-COMPLETE
 
 Representing a duration of time specified by <<ISO.8601.2004,4.4.3.2>> complete representation basic format.
 
-===== Format Definition
+===== Format definition
 
 [source,abnf]
 ----

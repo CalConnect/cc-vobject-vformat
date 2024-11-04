@@ -9,7 +9,7 @@ If the property permits, multiple "integer" values are
 specified by a COMMA-separated list of values.
 ////
 
-===== Value Type Notation
+===== Value type notation
 
 INTEGER
 
@@ -19,7 +19,7 @@ INTEGER
 
 Representation of a signed integer value.
 
-===== Format Definition
+===== Format definition
 
 [source,abnf]
 ----

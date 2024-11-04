@@ -4,7 +4,7 @@
 
 This corresponds to the TEXT value type in <<RFC6350,4.1>> and <<RFC5545,3.3.11>>.
 
-===== Value Type Notation
+===== Value type notation
 
 TEXT
 
@@ -12,7 +12,7 @@ TEXT
 
 This value type defines values that contain free-form, human-readable text.
 
-===== Format Definition
+===== Format definition
 
 [source,abnf]
 ----

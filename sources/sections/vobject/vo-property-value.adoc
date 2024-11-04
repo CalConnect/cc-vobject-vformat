@@ -1,6 +1,6 @@
 
 [[vobject-property-value]]
-==== Property Value
+==== Property value
 
 A vObject property *MAY* have one or more values, depending on the value type.
 
@@ -15,7 +15,7 @@ such as the "RECUR" property value type from iCalendar <<RFC5545>>.
 Each property *MUST* define a default value type, and *MAY* accept
 alternative, defined, value types.
 
-==== Normalization Of Property Values
+==== Normalization of property values
 
 The property value generally does not require any normalization.
 Please consult individual normalization instructions in each value type's

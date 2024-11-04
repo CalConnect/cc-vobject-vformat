@@ -4,7 +4,7 @@
 
 This corresponds to the DURATION value type in <<RFC5545,3.3.6>>.
 
-===== Value Type Notation
+===== Value type notation
 
 CAL-DURATION
 
@@ -12,7 +12,7 @@ CAL-DURATION
 
 Representing a duration of time specified by <<ISO.8601.2004,4.4.3.2>> complete representation basic format, similar to ISO-DURATION, but with syntax tailored to calendaring.
 
-===== Format Definition
+===== Format definition
 
 
 [source,abnf]

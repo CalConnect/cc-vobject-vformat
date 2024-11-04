@@ -27,7 +27,7 @@ representing the patching order, which is not a commutative process.
 
 
 [[uniqueness-identifier]]
-==== Uniqueness Identifying Property
+==== Uniqueness identifying property
 
 As a vObject component can contain inner components, it is important
 that those inner components can be distinguished from each other.
@@ -60,9 +60,9 @@ uniqueness identifier property for that component, and it *MUST* be
 registered in the said IANA registry.
 
 
-==== Normalizing A Component
+==== Normalizing a component
 
-===== Sorted Component Properties
+===== Sorted component properties
 
 Properties *MUST* be first normalized and before sorted, meaning
 that the property's values, and its parameters and its values, have been
@@ -78,7 +78,7 @@ following order:
 
 // TODO: have to define how to sort parameters as long strings...
 
-===== Sorted Inner Components
+===== Sorted inner components
 
 Inner components within a vObject must be placed in a sorted order.
 
@@ -90,7 +90,7 @@ following order:
 * if of the same component name, alphabetically according to its
   unique identifier <<uniqueness-identifier>>.
 
-===== Normalized Inner Components
+===== Normalized inner components
 
 An inner component *MUST* itself be normalized, meaning that its properties
 and inner components *MUST* be normalized.

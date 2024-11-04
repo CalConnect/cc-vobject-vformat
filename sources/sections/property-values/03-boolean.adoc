@@ -3,7 +3,7 @@
 
 This corresponds to the BOOLEAN value types in <<RFC6350,4.4>> and <<RFC5545,3.3.2>>.
 
-===== Value Type Notation
+===== Value type notation
 
 BOOLEAN
 
@@ -12,7 +12,7 @@ BOOLEAN
 This value type is used to identify properties that contain
 either a "TRUE" or "FALSE" Boolean value.
 
-===== Format Definition
+===== Format definition
 
 [source,abnf]
 ----

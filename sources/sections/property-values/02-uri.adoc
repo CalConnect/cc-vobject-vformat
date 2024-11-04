@@ -3,7 +3,7 @@
 
 This corresponds to the URI value type in <<RFC6350,4.2>> and <<RFC5545,3.3.13>>.
 
-===== Value Type Notation
+===== Value type notation
 
 URI
 
@@ -13,7 +13,7 @@ This value type defines values that are represented by data referenced by
 a uniform resource identifier (URI), the value is what the URI points to, not
 the URI itself.
 
-===== Format Definition
+===== Format definition
 
 [source,abnf]
 ----
