@@ -17,7 +17,7 @@ Each property parameter *MUST* define its accepted value type.
 While a property *MAY* accept multiple alternative value types,
 a property parameter value *MUST* only accept one value type.
 
-==== Normalizing Multiple Parameter Values
+==== Normalizing multiple parameter values
 
 Property parameter values within a property parameter is considered sorted
 by value.
