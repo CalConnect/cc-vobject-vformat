@@ -1,0 +1,69 @@
+= vObject -- vObject Model and vFormat Syntax
+:docnumber: 51008
+:copyright-year: 2019
+:language: en
+:doctype: standard
+:edition: 1
+:status: working-draft
+:revdate: 2024-11-04
+:published-date: 2024-11-04
+:script: Latn
+:technical-committee: VCARD
+:fullname: Ronald Tse
+:surname: Tse
+:givenname: Ronald
+:fullname_2: Jeffrey Lau
+:surname_2: Lau
+:givenname_2: Jeffrey
+:fullname_3: Kenneth Murchison
+:surname_3: Murchison
+:givenname_3: Kenneth
+:fullname_4: Mike Douglass
+:surname_4: Douglass
+:givenname_4: Mike
+:mn-document-class: cc
+:mn-output-extensions: xml,html,pdf,rxl
+:local-cache-only:
+:data-uri-image:
+
+include::../sections-common/00-abstract.adoc[]
+
+include::sections/00-foreword.adoc[]
+
+include::../sections-common/01-intro.adoc[]
+
+include::../sections-common/02-normrefs.adoc[]
+
+include::../sections-common/03-terms.adoc[]
+
+include::../sections-common/03-vobject.adoc[]
+
+include::../sections-common/04-vformat.adoc[]
+
+include::../sections-common/05-value-types.adoc[]
+
+include::../sections-common/06-normalization.adoc[]
+
+include::../sections-common/07-clients.adoc[]
+
+include::../sections-common/08-carddav.adoc[]
+
+include::../sections-common/09-caldav.adoc[]
+
+include::../sections-common/10-security.adoc[]
+
+include::../sections-common/11-iana.adoc[]
+
+include::../sections-common/90-value-type-mapping.adoc[]
+
+include::../sections-common/91-property-value-type-mapping.adoc[]
+
+include::../sections-common/92-parameter-value-type-mapping.adoc[]
+
+// must give references before appendix!
+
+include::../sections-common/98-examples.adoc[]
+
+//include::../sections-common/99-acknowledgements.adoc[]
+
+include::../sections-common/97-references.adoc[]

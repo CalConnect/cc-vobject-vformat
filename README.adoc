@@ -1,18 +1,31 @@
-= Internet-Draft: CalConnect vObject model and vFormat syntax
+= CalConnect Standard: vObject model and vFormat syntax
 
-image:https://github.com/CalConnect/csd-vobject-vformat/workflows/docker/badge.svg["Build Status", link="https://github.com/CalConnect/csd-vobject-vformat/actions?workflow=docker"]
+This work item belongs to CalConnect TC VCARD and TC CALENDAR.
+
+image:https://github.com/CalConnect/cc-vobject-vformat/workflows/generate/badge.svg["Build Status", link="https://github.com/CalConnect/cc-vobject-vformat/actions?workflow=generate"]
 
 This document is available in its rendered forms here:
 
-* https://CalConnect.github.io/csd-vobject-vformat/[HTML]
+* https://calconnect.github.io/cc-vobject-vformat/[CalConnect: Calendaring and scheduling -- Vocabulary (HTML)]
+
+== General
+
+This document specifies the vObject model and vFormat syntax.
+
+The document is published as the following:
+
+* CalConnect CC 51008
+* ISO 51008
+* IETF draft-cc-vobject-vformat
 
 
 == Fetching the document
 
 [source,sh]
 ----
-git clone https://github.com/CalConnect/csd-vobject-vformat/
+git clone https://github.com/CalConnect/cc-vobject-vformat/
 ----
+
 
 == Installing build tools
 
@@ -39,7 +52,7 @@ docker run -v "$(pwd)":/metanorma -w /metanorma -it metanorma/mn metanorma site 
 metanorma site generate --agree-to-terms
 ----
 
-The generated documents are accessible under `site/`.
+The generated documents are accessible under `_site/`.
 
 
 == Iterating the document
@@ -47,21 +60,21 @@ The generated documents are accessible under `site/`.
 [source,sh]
 ----
 metanorma site generate --agree-to-terms
-open site/index.html
+open _site/index.html
 ----
 
 
-== Checking Against idnits
+// == IETF: Checking against idnits
 
-https://tools.ietf.org/tools/idnits/[idnits] is the RFC checking tool prior to
-submissions.
+// https://tools.ietf.org/tools/idnits/[idnits] is the RFC checking tool prior to
+// submissions.
 
-The `make` target finds exactly the document name from the `:name:` document
-attribute and puts the file in the right place before calling `idnits` to
-prevent it complaining about the location.
+// [source,sh]
+// ----
+// idnits draft-calconnect-vobject-vformat.nits
+// ----
 
-[source,sh]
-----
-idnits draft-calconnect-vobject-vformat.nits
-----
 
+== License
+
+Copyright its respective authors and CalConnect.

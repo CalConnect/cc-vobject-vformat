@@ -2,9 +2,10 @@
 metanorma:
   source:
     files:
-      - sources/cc-56008.adoc
-      - sources/draft-calconnect-vobject-vformat.adoc
+      - sources/cc-51008/document.adoc
+      - sources/ietf/document.adoc
+      - sources/iso-51008/document.adoc
 
   collection:
-    name: vObject i18n
+    name: vObject and vFormat
     organization: CalConnect

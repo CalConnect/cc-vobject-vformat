@@ -1,0 +1,66 @@
+= vObject -- vObject Model and vFormat Syntax
+:docnumber: 51008
+:edition: 1
+:copyright-year: 2024
+:language: en
+:title-intro-en: vObject
+:title-intro-fr: vObject
+:title-main-en: vObject Model and vFormat Syntax
+:title-main-fr: Modèle vObject et syntaxe vFormat
+:doctype: international-standard
+:docstage: 20
+:docsubstage: 20
+:technical-committee-type: TC
+:technical-committee-number: 154
+:technical-committee: Processes, data elements and documents in commerce, industry and administration
+:working-group: Representation of date and time
+:working-group-type: WG
+:working-group-number: 5
+:secretariat: SAC
+:imagesdir: images
+:local-cache-only:
+:data-uri-image:
+:mn-document-class: iso
+:mn-output-extensions: xml,html,doc,pdf
+
+include::../sections-common/00-abstract.adoc[]
+
+include::sections/00-foreword.adoc[]
+
+include::../sections-common/01-intro.adoc[]
+
+include::../sections-common/02-normrefs.adoc[]
+
+include::../sections-common/03-terms.adoc[]
+
+include::../sections-common/03-vobject.adoc[]
+
+include::../sections-common/04-vformat.adoc[]
+
+include::../sections-common/05-value-types.adoc[]
+
+include::../sections-common/06-normalization.adoc[]
+
+include::../sections-common/07-clients.adoc[]
+
+include::../sections-common/08-carddav.adoc[]
+
+include::../sections-common/09-caldav.adoc[]
+
+include::../sections-common/10-security.adoc[]
+
+include::../sections-common/11-iana.adoc[]
+
+include::../sections-common/90-value-type-mapping.adoc[]
+
+include::../sections-common/91-property-value-type-mapping.adoc[]
+
+include::../sections-common/92-parameter-value-type-mapping.adoc[]
+
+// must give references before appendix!
+
+include::../sections-common/98-examples.adoc[]
+
+//include::../sections-common/99-acknowledgements.adoc[]
+
+include::../sections-common/97-references.adoc[]
