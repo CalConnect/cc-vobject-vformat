@@ -1,0 +1,183 @@
+<relaton-collection xmlns="https://open.ribose.com/relaton-xml"><title>vObject i18n</title><contributor><role type='author'/><organization><name>CalConnect</name></organization></contributor><relation type='partOf'><bibdata type="standard">
+  <title format="text/plain" language="en">vObject — vObject Model and vFormat Syntax</title>
+  <uri type="xml">documents/cc-56008.xml</uri>
+  <uri type="pdf">documents/cc-56008.pdf</uri>
+  <uri type="html">documents/cc-56008.html</uri>
+  <uri type="rxl">documents/cc-56008.rxl</uri>
+  <docidentifier type="CalConnect">CC/WD 56008:2019</docidentifier>
+  <docnumber>56008</docnumber>
+  <date type="published">
+    <on>2021-04-15</on>
+  </date>
+  <contributor>
+    <role type="author"/>
+    <organization>
+      <name>CalConnect</name>
+    </organization>
+  </contributor>
+  <contributor>
+    <role type="author"/>
+    <person>
+      <name>
+        <completename>Ronald Tse</completename>
+      </name>
+    </person>
+  </contributor>
+  <contributor>
+    <role type="author"/>
+    <person>
+      <name>
+        <completename>Jeffrey Lau</completename>
+      </name>
+    </person>
+  </contributor>
+  <contributor>
+    <role type="author"/>
+    <person>
+      <name>
+        <completename>Kenneth Murchison</completename>
+      </name>
+    </person>
+  </contributor>
+  <contributor>
+    <role type="author"/>
+    <person>
+      <name>
+        <completename>Mike Douglass</completename>
+      </name>
+    </person>
+  </contributor>
+  <contributor>
+    <role type="publisher"/>
+    <organization>
+      <name>CalConnect</name>
+    </organization>
+  </contributor>
+  <edition>1</edition>
+  <version>
+    <revision-date>2021-04-15</revision-date>
+  </version>
+  <language>en</language>
+  <script>Latn</script>
+  <status>
+    <stage>working-draft</stage>
+  </status>
+  <copyright>
+    <from>2019</from>
+    <owner>
+      <organization>
+        <name>CalConnect</name>
+      </organization>
+    </owner>
+  </copyright>
+  <ext>
+    <doctype>standard</doctype>
+    <editorialgroup>
+      <committee>VCARD</committee>
+    </editorialgroup>
+  </ext>
+</bibdata></relation>
+<relation type='partOf'><bibdata type="standard">
+  <fetched>2021-07-11</fetched>
+  <title format="text/plain" language="en" script="Latn">The vObject Model and vFormat Syntax</title>
+  <uri type="xml">documents/draft-calconnect-vobject-vformat.rfc.xml</uri>
+  <contributor>
+    <role type="author"/>
+    <person>
+      <name>
+        <completename language="en">Ronald Henry Tse</completename>
+      </name>
+      <affiliation>
+        <organization>
+          <name>Ribose</name>
+        </organization>
+      </affiliation>
+      <address>
+        <street>Suite 1109, 1 Pedder Street</street>
+        <city/>
+        <country/>
+      </address>
+      <email>ronald.tse@ribose.com</email>
+      <uri>https://www.ribose.com</uri>
+    </person>
+  </contributor>
+  <contributor>
+    <role type="author"/>
+    <person>
+      <name>
+        <completename language="en">Jeffrey Lau</completename>
+      </name>
+      <affiliation>
+        <organization>
+          <name>Ribose</name>
+        </organization>
+      </affiliation>
+      <address>
+        <street>Suite 1109, 1 Pedder Street</street>
+        <city/>
+        <country/>
+      </address>
+      <email>jeffrey.lau@ribose.com</email>
+      <uri>https://www.ribose.com</uri>
+    </person>
+  </contributor>
+  <contributor>
+    <role type="author"/>
+    <person>
+      <name>
+        <completename language="en">Mike Douglass</completename>
+      </name>
+      <affiliation>
+        <organization>
+          <name>Spherical Cow Group</name>
+        </organization>
+      </affiliation>
+      <address>
+        <street>226 3rd Street</street>
+        <city/>
+        <country/>
+      </address>
+      <email>murch@fastmailteam.com</email>
+      <uri/>
+    </person>
+  </contributor>
+  <contributor>
+    <role type="publisher"/>
+    <organization>
+      <name>Internet Engineering Task Force</name>
+      <abbreviation>IETF</abbreviation>
+    </organization>
+  </contributor>
+  <language>en</language>
+  <script>Latn</script>
+  <abstract format="text/plain" language="en" script="Latn">vObject represents the generalized data model, and vFormat
+the generalized data format, of the following specifications
+and fully covers them:
+
+
+RFC 6350, vCard version 4.0: the VCARD component;
+
+
+RFC 5545, Internet Calendaring and Scheduling Core Object Specification (iCalendar): the VCALENDAR, VEVENT, VJOURNAL, VFREEBUSY, VTIMEZONE, VALARM, VTODO, STANDARD and DAYLIGHT components;
+
+
+RFC 7953, Calendar Availability Extensions: the VAVAILABILITY and AVAILABLE components;
+
+
+I-Ddaboo-icalendar-vpatch, iCalendar Patching: the VPATCH component; and
+
+
+alternative formats for iCalendar and vCard, including
+RFC 6321, xCal;
+RFC 7265, jCal;
+RFC 6351, xCard; and
+RFC 7095, jCard.
+
+
+This work is produced by the CalConnect TC-VCARD and TC-CALENDAR committees.</abstract>
+  <place>Fremont, CA</place>
+  <ext>
+    <doctype>rfc</doctype>
+  </ext>
+</bibdata></relation>
+</relaton-collection>
